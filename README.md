@@ -1,23 +1,51 @@
 # EstimadoresDFSA
 FLAGS:
+
 -eom-lee
+
     enable Eom-Lee estimator
+    
+    
 -frame-two
+    
     limit frame size to a power of two number
+    
+    
 -inc-tags int
+
     number of tags to increment by each step
+    
+    
 -iv-ii
-    enable IV-II estimator
+   
+   enable IV-II estimator
+    
+    
 -lower-bound
-    enable lower bound estimator
+   
+   enable lower bound estimator
+    
+    
 -max-tags int
-    number of maximum tags to simulate
+  
+  number of maximum tags to simulate
+    
+    
 -replay-step int
-    number of iterations by each step
+  
+  number of iterations by each step
+    
+    
 -shoute
-    enable shoute estimator
+  
+  enable shoute estimator
+  
+  
 -start-frame int
-    initial value of frame size
+  
+  initial value of frame size
+  
+  
 -start-tags int
     initial number of tags to start simulation
     
